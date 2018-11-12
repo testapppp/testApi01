@@ -1,0 +1,246 @@
+{
+  "$id": "http://example.com/example.json",
+  "type": "object",
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "properties": {
+    "errno": {
+      "$id": "/properties/errno",
+      "type": "integer",
+      "title": "The Errno Schema ",
+      "default": 0,
+      "examples": [
+        0
+      ]
+    },
+    "error": {
+      "$id": "/properties/error",
+      "type": "string",
+      "title": "The Error Schema ",
+      "default": "",
+      "examples": [
+        ""
+      ]
+    },
+    "data": {
+      "$id": "/properties/data",
+      "type": "object",
+      "properties": {
+        "list": {
+          "$id": "/properties/data/properties/list",
+          "type": "array",
+          "items": {
+            "$id": "/properties/data/properties/list/items",
+            "type": "object",
+            "properties": {
+              "document_id": {
+                "$id": "/properties/data/properties/list/items/properties/document_id",
+                "type": "string",
+                "title": "The Document_id Schema ",
+                "default": "",
+                "examples": [
+                  "4768"
+                ]
+              },
+              "id": {
+                "$id": "/properties/data/properties/list/items/properties/id",
+                "type": "string",
+                "title": "The Id Schema ",
+                "default": "",
+                "examples": [
+                  "7d86fde93ad04c5c13387122c6cddd11"
+                ]
+              },
+              "title": {
+                "$id": "/properties/data/properties/list/items/properties/title",
+                "type": "string",
+                "title": "The Title Schema ",
+                "default": "",
+                "examples": [
+                  "一步差三市，最全培训机构选址指南！"
+                ]
+              },
+              "tags": {
+                "$id": "/properties/data/properties/list/items/properties/tags",
+                "type": "string",
+                "title": "The Tags Schema ",
+                "default": "",
+                "examples": [
+                  "7,24"
+                ]
+              },
+              "score": {
+                "$id": "/properties/data/properties/list/items/properties/score",
+                "type": "integer",
+                "title": "The Score Schema ",
+                "default": 0,
+                "examples": [
+                  0
+                ]
+              },
+              "description": {
+                "$id": "/properties/data/properties/list/items/properties/description",
+                "type": "string",
+                "title": "The Description Schema ",
+                "default": "",
+                "examples": [
+                  "一步差三市，最全培训机构选址指南！"
+                ]
+              },
+              "cover_pic_url": {
+                "$id": "/properties/data/properties/list/items/properties/cover_pic_url",
+                "type": "string",
+                "title": "The Cover_pic_url Schema ",
+                "default": "",
+                "examples": [
+                  "http://image-storage.static.tengyue360.com/tmp_cover_pics/43/60/67/fb/436067fbf1c3afacb7b2bb0f9fb6e130.jpg"
+                ]
+              },
+              "price": {
+                "$id": "/properties/data/properties/list/items/properties/price",
+                "type": "integer",
+                "title": "The Price Schema ",
+                "default": 0,
+                "examples": [
+                  0
+                ]
+              },
+              "level": {
+                "$id": "/properties/data/properties/list/items/properties/level",
+                "type": "integer",
+                "title": "The Level Schema ",
+                "default": 0,
+                "examples": [
+                  0
+                ]
+              },
+              "type": {
+                "$id": "/properties/data/properties/list/items/properties/type",
+                "type": "integer",
+                "title": "The Type Schema ",
+                "default": 0,
+                "examples": [
+                  1
+                ]
+              },
+              "url": {
+                "$id": "/properties/data/properties/list/items/properties/url",
+                "type": "string",
+                "title": "The Url Schema ",
+                "default": "",
+                "examples": [
+                  "https://m.tengyue360.com/content/document/article?id=7d86fde93ad04c5c13387122c6cddd11"
+                ]
+              },
+              "is_series": {
+                "$id": "/properties/data/properties/list/items/properties/is_series",
+                "type": "boolean",
+                "title": "The Is_series Schema ",
+                "default": false,
+                "examples": [
+                  false
+                ]
+              },
+              "create_ts": {
+                "$id": "/properties/data/properties/list/items/properties/create_ts",
+                "type": "integer",
+                "title": "The Create_ts Schema ",
+                "default": 0,
+                "examples": [
+                  1524041970
+                ]
+              },
+              "is_new": {
+                "$id": "/properties/data/properties/list/items/properties/is_new",
+                "type": "boolean",
+                "title": "The Is_new Schema ",
+                "default": false,
+                "examples": [
+                  true
+                ]
+              },
+              "view_count": {
+                "$id": "/properties/data/properties/list/items/properties/view_count",
+                "type": "integer",
+                "title": "The View_count Schema ",
+                "default": 0,
+                "examples": [
+                  62
+                ]
+              },
+              "view_count_from_db": {
+                "$id": "/properties/data/properties/list/items/properties/view_count_from_db",
+                "type": "integer",
+                "title": "The View_count_from_db Schema ",
+                "default": 0,
+                "examples": [
+                  56
+                ]
+              },
+              "share_count": {
+                "$id": "/properties/data/properties/list/items/properties/share_count",
+                "type": "integer",
+                "title": "The Share_count Schema ",
+                "default": 0,
+                "examples": [
+                  3
+                ]
+              },
+              "fav_count": {
+                "$id": "/properties/data/properties/list/items/properties/fav_count",
+                "type": "integer",
+                "title": "The Fav_count Schema ",
+                "default": 0,
+                "examples": [
+                  3
+                ]
+              },
+              "comment_count": {
+                "$id": "/properties/data/properties/list/items/properties/comment_count",
+                "type": "integer",
+                "title": "The Comment_count Schema ",
+                "default": 0,
+                "examples": [
+                  1
+                ]
+              }
+            }
+          }
+        },
+        "pageInfo": {
+          "$id": "/properties/data/properties/pageInfo",
+          "type": "object",
+          "properties": {
+            "total": {
+              "$id": "/properties/data/properties/pageInfo/properties/total",
+              "type": "integer",
+              "title": "The Total Schema ",
+              "default": 0,
+              "examples": [
+                503
+              ]
+            },
+            "pn": {
+              "$id": "/properties/data/properties/pageInfo/properties/pn",
+              "type": "integer",
+              "title": "The Pn Schema ",
+              "default": 0,
+              "examples": [
+                1
+              ]
+            },
+            "rn": {
+              "$id": "/properties/data/properties/pageInfo/properties/rn",
+              "type": "integer",
+              "title": "The Rn Schema ",
+              "default": 0,
+              "examples": [
+                20
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}

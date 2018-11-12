@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite1"    verbose="1" >
+<parameter name="version" value="8.40000"/>
+<parameter name="device_id" value="6FA310DC-8181-4C26-ADEF-371FF31FC557"/>
+<test name="TestNGTest">
+    <packages>
+        <package name = "datatest.*"/>
+    </packages>
+</test>
+    <!---->
+    <listeners>
+        <listener class-name="data.testClassData.EextenttestNGIReport"/>
+    </listeners>
+</suite>
